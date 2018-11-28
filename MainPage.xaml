@@ -1,0 +1,104 @@
+﻿<Page
+    x:Class="ylesanne1_Ralf.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ylesanne1_Ralf"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        
+
+        
+            <Pivot Title="Title">
+                <PivotItem Header="Pivot" Height="Auto">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <ScrollViewer Grid.Column="0">
+                        <ListView>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                            <ListViewItem Background="#FF959292">Item1</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Item2</ListViewItem>
+                        </ListView>
+                    </ScrollViewer>
+                        
+                    <GridView Grid.Column="1"
+                              HorizontalAlignment="Center"
+                              VerticalAlignment="Center">
+                        <StackPanel Orientation="Vertical">
+                            <StackPanel Orientation="Horizontal" 
+                                        Margin="0,0,0,20">
+                                <GridViewItem Background="#FFF5EBEB" Padding="100">kast1</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="100">kast2</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="100">kast3</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="100">kast4</GridViewItem>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal"
+                                        Margin="0,20,0,0">
+                                <GridViewItem Background="#FFF5EBEB" Padding="100">kast5</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="100">kast6</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="100">kast7</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="100">kast8</GridViewItem>
+                            </StackPanel>
+                        </StackPanel>
+                    </GridView>
+                </Grid>
+                </PivotItem>
+                <PivotItem Header="Pivot1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Page Title" FontSize="25"></TextBlock>
+                    <Image Source="/Assets/123.jpg" Height="1000"></Image>
+                    
+                    <GridView Grid.Column="1"></GridView>
+                </Grid>
+
+                </PivotItem>
+                <PivotItem Header="Pivot2"></PivotItem>
+                <PivotItem Header="Pivot3"></PivotItem>
+                <PivotItem Header="Pivot4"></PivotItem>
+            </Pivot>
+            
+        
+        
+
+    </Grid>
+</Page>
